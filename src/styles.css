@@ -6,6 +6,47 @@
 /**
  * Theme: default
  */
+
+.bordered-container {
+  padding: 20px;
+}
+
+.header-comp {
+  width: 25%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bordered-container h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bordered-container app-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bordered-container app-head img {
+  max-width: 40%;
+  height: auto;
+}
+
+.bordered-container app-foot {
+  font-size: small;
+  color: gray;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  text-align: right;
+}
+
 :root {
   --font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
     "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
