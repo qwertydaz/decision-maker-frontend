@@ -4,11 +4,15 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { TenantsComponent } from './tenants/tenants.component';
+import { BedroomsComponent } from './bedrooms/bedrooms.component';
 
 const routes: Routes = [
   {path:"", redirectTo:"home", pathMatch:"full"},
 
   {path:"home", component:HomeComponent},
+  {path:"tenants", component:TenantsComponent},
+  {path:"bedrooms", component:BedroomsComponent},
 
   {path:"**", component:NotFoundComponent}
 ];

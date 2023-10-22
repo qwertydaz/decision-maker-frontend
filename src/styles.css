@@ -26,6 +26,11 @@
   text-align: center;
 }
 
+.bordered-container nav {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .bordered-container app-head {
   display: flex;
   justify-content: center;

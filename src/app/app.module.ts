@@ -9,6 +9,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { FootComponent } from './foot/foot.component';
 import { HeadComponent } from './head/head.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { TenantsComponent } from './tenants/tenants.component';
+import { BedroomsComponent } from './bedrooms/bedrooms.component';
 
 const routes: Routes = [];
 
@@ -18,7 +20,9 @@ const routes: Routes = [];
     HomeComponent,
     FootComponent,
     HeadComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    TenantsComponent,
+    BedroomsComponent
   ],
   imports: [
     BrowserModule,
